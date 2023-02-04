@@ -6,6 +6,9 @@
 }
 
 * {
+    /**
+      box sizing : this will put the border and padding part of width
+     */
     box-sizing: border-box;
 }
 
@@ -15,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* vh : viewport height vw : viewport width height : 50 vh means 50 % screen height*/
     min-height: 100vh;
     margin: 0;
 }
